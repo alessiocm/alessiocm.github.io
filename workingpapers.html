@@ -30,6 +30,11 @@
         .toggle-abstract:hover {
             text-decoration: none;
         }
+         .square-bullets {
+            list-style-type: square; /* Imposta i bullets come quadrati */
+            margin-left: 20px; /* Aggiunge un margine a sinistra per l'elenco */
+            padding-left: 10px;
+        }
     </style>
     <script>
         function toggleAbstract(id) {
@@ -59,7 +64,8 @@
     <h1>WORKING PAPERS</h1>
     <div class="content">
         <div class="paper">
-            <h2>Assets confiscation and mafia violence. Unfolding long-run interactions between states and organized crime [Job Market Paper]</h2>
+             <ul class="square-bullets">
+            <li>Assets confiscation and mafia violence. Unfolding long-run interactions between states and organized crime [Job Market Paper]</li>
             <p>Presented at: Internal Seminar (Unibo), CLEAN seminar series (Bocconi, Milano), Internal Seminar (ENS, Lyon), XIII NERI workshop (Uniba), Internal seminar (KU Leuven), XVI VPDE workshop in Economics (Carlo Alberto and University of Turin)</p>
             <p class="toggle-abstract" onclick="toggleAbstract('abstract1')">ABSTRACT</p>
             <p id="abstract1" class="abstract">
@@ -102,5 +108,6 @@
             <p>Presented at: Internal Seminar (Unibo)</p>
         </div>
     </div>
+    </ul>
 </body>
 </html>
