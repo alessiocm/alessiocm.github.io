@@ -29,19 +29,22 @@
             margin: 0 auto;
             max-width: 900px;
             padding: 20px;
+            display: flex; /* Usa il flexbox per allineare l'immagine e il testo */
+            align-items: flex-start;
         }
         .image-container {
-            text-align: center;
-            margin: 20px 0;
+            margin-right: 20px;
+            flex-shrink: 0; /* L'immagine non si ridimensionerà con il testo */
+            text-align: left;
         }
         .image-container img {
-            max-width: 80%;
+            max-width: 250px; /* Dimensione massima dell'immagine */
             height: auto;
-            border-radius: 10px; /* Aggiungi bordi arrotondati */
+            border-radius: 10px; /* Bordi arrotondati */
         }
         .square-bullets {
             list-style-type: square;
-            margin-left: 40px;
+            margin-left: 20px;
             padding-left: 0;
         }
         .square-bullets li {
@@ -70,6 +73,11 @@
         nav ul li a:hover {
             color: #007BFF; /* Colore blu scuro al passaggio del mouse */
         }
+        .contacts {
+            margin-top: 10px;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
         footer {
             text-align: center;
             padding: 10px 0;
@@ -96,6 +104,10 @@
     <div class="content">
         <div class="image-container">
             <img src="foto_home.jpeg" alt="Home Image">
+            <div class="contacts">
+                <p><strong>E-mail:</strong> alessio.carrozzo2@unibo.it</p>
+                <p><strong>Unibo webpage:</strong> <a href="https://www.unibo.it/sitoweb/alessio.carrozzo2">https://www.unibo.it/sitoweb/alessio.carrozzo2</a></p>
+            </div>
         </div>
         <main>
             <section id="about">
