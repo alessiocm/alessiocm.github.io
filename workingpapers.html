@@ -6,17 +6,33 @@
     <title>Working Papers</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            font-weight: normal;
         }
         h1 {
-            color: #333;
+            text-align: center;
+            font-size: 2.5em;
+            margin-top: 40px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 20px;
+            margin-bottom: 5px;
         }
         .content {
-            margin-top: 20px;
+            margin: 0 auto;
+            max-width: 900px;
+            padding: 20px;
         }
         .paper {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         .abstract {
             display: none;
@@ -30,10 +46,44 @@
         .toggle-abstract:hover {
             text-decoration: none;
         }
-         .square-bullets {
-            list-style-type: square; /* Imposta i bullets come quadrati */
-            margin-left: 20px; /* Aggiunge un margine a sinistra per l'elenco */
-            padding-left: 10px;
+        .square-bullets {
+            list-style-type: square;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+        .square-bullets li {
+            margin-bottom: 20px;
+        }
+        nav {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ffffff;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f1f1f1;
+            margin-top: 20px;
+            font-size: 0.9em;
         }
     </style>
     <script>
@@ -48,11 +98,11 @@
     </script>
 </head>
 <body>
-     <header>
+    <header>
         <h1>Alessio Carrozzo Magli</h1>
         <nav>
             <ul>
-             <li><a href="index.html">Home Page</a></li>
+                <li><a href="index.html">Home Page</a></li>
                 <li><a href="publications.html">Publications</a></li>
                 <li><a href="cv.html">CV</a></li>
                 <li><a href="workingpapers.html">Working Papers</a></li>
@@ -61,20 +111,19 @@
             </ul>
         </nav>
     </header>
-     <h1>WORKING PAPERS</h1>
+    <h1>WORKING PAPERS</h1>
     <div class="content">
         <ul class="square-bullets">
-            <li>
-                <h2><b>Assets confiscation and mafia violence. Unfolding long-run interactions between states and organized crime </b> [Job Market Paper]</h2>
+            <li class="paper">
+                <h2><b>Assets confiscation and mafia violence. Unfolding long-run interactions between states and organized crime</b> [Job Market Paper]</h2>
                 <p>Presented at: Internal Seminar (Unibo), CLEAN seminar series (Bocconi, Milano), Internal Seminar (ENS, Lyon), XIII NERI workshop (Uniba), Internal seminar (KU Leuven), XVI VPDE workshop in Economics (Carlo Alberto and University of Turin)</p>
                 <p class="toggle-abstract" onclick="toggleAbstract('abstract1')">ABSTRACT</p>
                 <p id="abstract1" class="abstract">
                     I develop a model analyzing the interplay between the state and mafias. I demonstrate that targeting criminal profitability reduces conflicts within criminal organizations but increases retaliation against the state, while strengthening law enforcement decreases both. Employing data on Italian mafias, I validate empirically these predictions by relating murders of public officers to the introduction and staggered implementation of Italy's asset forfeiture law while instrumenting confiscations with two sources of exogenous variations, namely US drug demand and public funds after natural disasters. This identifies three major epochs of post-WWII Italian history: the "corrupted state" epoch, with essentially no response to mafias until late 1970s, the "state response-mafia retaliation", culminated in the 1992-93 mass murders, and the "sinking" phase, with mafias ceasing fire and reallocating towards the legal economy. This includes the previously proposed electoral violence argument as a special case of the present explanation. Finally, I propose a generalization to Mexico and Colombia.
                 </p>
             </li>
-            
-            <li>
-                <h2><b>Organized Crime, Violence, and Targeted Repression </b></h2>
+            <li class="paper">
+                <h2><b>Organized Crime, Violence, and Targeted Repression</b></h2>
                 <p>(with Piero Manfredi & Paolo Vanin)</p>
                 <p>Presented at: 2nd Year PhD Forum (Unibo), Internal seminar (UdeSA, Buenos Aires)</p>
                 <p class="toggle-abstract" onclick="toggleAbstract('abstract2')">ABSTRACT</p>
@@ -82,35 +131,32 @@
                     We study the effects of targeted repression of organized crime on inter-clan violence and illegal activity. We investigate the possible trade-off between curbing violence and illegal activity. If clans fight for territorial control, targeting the strongest ones reduces violence, but if surviving clans are the most productive, it also boosts illegal activity and profits. Targeting the weakest clans has opposite effects. If instead clans are able to sustain a peaceful territory-splitting agreement, targeting the strongest clans may raise violence by triggering a succession war. Conversely, targeting the weakest clans may allow the strongest ones to peacefully thrive. Our theoretical analysis helps interpret the evolution of violence and illegal activity after different kinds of repressive policy adopted in Italy, Mexico and Colombia.
                 </p>
             </li>
-            
-            <li>
+            <li class="paper">
                 <h2><b>The paradox of power play</b></h2>
-                <p>Presented at: Internal Seminar (Unibo), Internal Seminar (ENS, Lyon).</p>
+                <p>Presented at: Internal Seminar (Unibo), Internal Seminar (ENS, Lyon)</p>
                 <p class="toggle-abstract" onclick="toggleAbstract('abstract3')">ABSTRACT</p>
                 <p id="abstract3" class="abstract">
                     I present an asymmetric conflict model, revealing that, under fairly general conditions, economically disadvantaged factions derive the greatest benefits from warfare, even when they neither outnumber nor surpass their opponents in military strength. This is because, although less likely to emerge victorious, they have more to win and less to lose from the conflict. The resulting policy implication suggests that weakening the most aggressive belligerents could paradoxically fuel new conflicts, as the shift in the degree of asymmetry may further tempt the rival faction to attack. I test the model predictions employing a database on militarized interstates disputes spanning the last two centuries and instrumenting countries' difference in GDP per capita with exogenous variations in temperatures and rainfall.
                 </p>
             </li>
-
-            <li>
+            <li class="paper">
                 <h2><b>Cracking the code: assessing and countering mafia penetration in public procurement</b></h2>
                 <p>(with Chiara Notarangelo)</p>
                 <p>Awards: finalist at the 2023 Tortuga Call for Policy Papers</p>
                 <p class="toggle-abstract" onclick="toggleAbstract('abstract4')">ABSTRACT</p>
                 <p id="abstract4" class="abstract">
-                    We use a game theory model to demonstrate that mafia influence discourages public investments in regions where criminal organizations have not yet permeated the legitimate economy. Conversely, in areas where organized crime has already entrenched itself, the presence of mafia is shown to foster investments as a strategic move to secure lucrative public contracts. This intriguing dichotomy forms a U-shaped association between regional wealth and mafia penetration.
-                    We test our theoretical predictions on a dataset of Sicilian municipalities. On the one hand, we find a negative correlation between mafia presence and public investments during the First Italian Republic (1946-1992), during which the mafia's sophistication level was insufficient to infiltrate the formal economy. On the other hand, we unveil a substantial allocation of resources from the Recovery fund (2020) to municipalities characterized by high mafia penetration. In both cases, we employ the existence of sulfur mines as an instrumental variable for assessing mafia presence.
-                    We then substantiate that the observed trend is also prevalent in areas formerly considered devoid of mafia presence.
-                    To address the recent problem of mafia penetration into public procurement, we propose PATMAPP, a novel index to evaluate the risk of mafia penetration for firms participating in calls for tenders.
+                    We use a game theory model to demonstrate that mafia influence discourages public investments in regions where criminal organizations have not yet permeated the legitimate economy. Conversely, in areas where organized crime has already entrenched itself, the presence of mafia is shown to foster investments as a strategic move to secure lucrative public contracts. This intriguing dichotomy forms a U-shaped association between regional wealth and mafia penetration. We test our theoretical predictions on a dataset of Sicilian municipalities. On the one hand, we find a negative correlation between mafia presence and public investments during the First Italian Republic (1946-1992), during which the mafia's sophistication level was insufficient to infiltrate the formal economy. On the other hand, we unveil a substantial allocation of resources from the Recovery fund (2020) to municipalities characterized by high mafia penetration. In both cases, we employ the existence of sulfur mines as an instrumental variable for assessing mafia presence. We then substantiate that the observed trend is also prevalent in areas formerly considered devoid of mafia presence. To address the recent problem of mafia penetration into public procurement, we propose PATMAPP, a novel index to evaluate the risk of mafia penetration for firms participating in calls for tenders.
                 </p>
             </li>
-
-            <li>
+            <li class="paper">
                 <h2><b>(Work In Progress) Vote for Assets: electoral support and asset confiscation in Sicilian municipalities</b></h2>
-                <p>(with Giovanni Righetto)</p>
+                <p>(with Giovanni Righetto and Antonio Schiavone)</p>
                 <p>Presented at: Internal Seminar (Unibo)</p>
             </li>
         </ul>
     </div>
+    <footer>
+        <p>© 2024 Alessio Carrozzo Magli - All rights reserved</p>
+    </footer>
 </body>
 </html>
