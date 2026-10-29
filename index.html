@@ -1,105 +1,150 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="AR_xJ5NoWhIVXqZdcw7yIcms7AsZ_CDVve1B0K36e8I" />
 
-   <title>Alessio Carrozzo Magli</title>
-    
-<meta name="description" content="Alessio Carrozzo Magli is a research fellow at the University of Turin specializing in Crime Economics and the Economics of Organized Crime. Explore my research and academic contributions.">
+    <meta name="google-site-verification"
+          content="AR_xJ5NoWhIVXqZdcw7yIcms7AsZ_CDVve1B0K36e8I">
 
-<meta name="keywords" content="Alessio Carrozzo Magli, Research Fellow, Crime Economics, Economics of Organized Crime, Game Theory, Econometrics, University of Bologna, University of Turin, Academic Research">
+    <title>Alessio Carrozzo Magli</title>
 
+    <meta name="description"
+          content="Alessio Carrozzo Magli is an economist specializing in political economy, the economics of organized crime, game theory, and applied microeconometrics.">
 
-    <link rel="canonical" href="https://example.com/dresses/green-dresses" />
-<meta property="og:title" content="Alessio Carrozzo Magli" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://alessiocm.github.io/" />
-<meta property="og:description" content="Postdoctoral researcher at the University of Turin, working on the economics of organized crime, game theory, and applied econometrics." />
-<meta property="og:image" content="https://alessiocm.github.io/foto_home.jpeg" />
+    <meta name="keywords"
+          content="Alessio Carrozzo Magli, Political Economy, Crime Economics, Economics of Organized Crime, Game Theory, Applied Microeconometrics, University of Bologna, University of Turin, Academic Research">
+
+    <link rel="canonical"
+          href="https://alessiocm.github.io/">
+
+    <meta property="og:title"
+          content="Alessio Carrozzo Magli">
+
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:url"
+          content="https://alessiocm.github.io/">
+
+    <meta property="og:description"
+          content="Economist working on political economy, organized crime, game theory, and applied microeconometrics.">
+
+    <meta property="og:image"
+          content="https://alessiocm.github.io/foto_home.jpeg">
 
     <style>
+
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #ffffff; /* Sfondo bianco */
-            color: #000000; /* Testo nero */
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
             margin: 0;
             padding: 0;
             line-height: 1.6;
         }
+
         h1, h2 {
             font-weight: normal;
         }
+
         h1 {
             text-align: center;
             font-size: 2.5em;
             margin-top: 40px;
         }
+
         h2 {
             font-size: 1.8em;
             margin-top: 20px;
             text-align: center;
         }
+
         .content {
             margin: 0 auto;
             max-width: 900px;
             padding: 20px;
         }
+
         .about-header {
             text-align: center;
             margin-bottom: 20px;
         }
+
         .content-body {
-            display: flex; /* Usa il flexbox per allineare l'immagine e il testo */
+            display: flex;
             align-items: flex-start;
+            gap: 20px;
         }
+
         .image-container {
-            margin-right: 20px;
-            flex-shrink: 0; /* L'immagine non si ridimensionerà con il testo */
+            flex-shrink: 0;
             text-align: left;
         }
+
         .image-container img {
-            max-width: 250px; /* Dimensione massima dell'immagine */
+            max-width: 250px;
+            width: 100%;
             height: auto;
-            border-radius: 10px; /* Bordi arrotondati */
+            border-radius: 10px;
         }
+
         .square-bullets {
             list-style-type: square;
             margin-left: 20px;
             padding-left: 0;
         }
+
         .square-bullets li {
             margin-bottom: 10px;
         }
+
         nav {
             text-align: center;
             padding: 20px 0;
-            background-color: #ffffff; /* Sfondo bianco per la barra di navigazione */
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
         nav ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
+
         nav ul li {
-            display: inline;
-            margin: 0 15px;
+            display: inline-block;
+            margin: 5px 15px;
         }
+
         nav ul li a {
             text-decoration: none;
-            color: #000000; /* Colore nero per i link */
+            color: #000000;
             font-weight: bold;
             font-size: 1.1em;
         }
+
         nav ul li a:hover {
-            color: #007BFF; /* Colore blu scuro al passaggio del mouse */
+            color: #007BFF;
         }
+
         .contacts {
             margin-top: 10px;
             font-size: 0.9em;
             line-height: 1.4;
         }
+
+        .contacts a {
+            overflow-wrap: anywhere;
+        }
+
+        main {
+            flex: 1;
+            min-width: 0;
+        }
+
         footer {
             text-align: center;
             padding: 10px 0;
@@ -107,11 +152,55 @@
             margin-top: 20px;
             font-size: 0.9em;
         }
+
+        /* Mobile layout */
+
+        @media (max-width: 650px) {
+
+            h1 {
+                font-size: 2em;
+                padding: 0 10px;
+            }
+
+            .content-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .image-container {
+                text-align: center;
+            }
+
+            .image-container img {
+                max-width: 220px;
+            }
+
+            .contacts {
+                text-align: center;
+            }
+
+            nav ul li {
+                margin: 5px 8px;
+            }
+
+            nav ul li a {
+                font-size: 0.95em;
+            }
+
+            main {
+                width: 100%;
+            }
+        }
+
     </style>
 </head>
+
 <body>
+
     <header>
+
         <h1>Alessio Carrozzo Magli</h1>
+
         <nav>
             <ul>
                 <li><a href="index.html">Home Page</a></li>
@@ -121,35 +210,112 @@
                 <li><a href="teaching.html">Teaching</a></li>
             </ul>
         </nav>
+
     </header>
+
     <div class="content">
+
         <section id="about">
+
             <div class="about-header">
                 <h2>About</h2>
             </div>
+
             <div class="content-body">
+
                 <div class="image-container">
-                    <img src="foto_home.jpeg" alt="Alessio Carrozzo Magli">
+
+                    <img src="foto_home.jpeg"
+                         alt="Alessio Carrozzo Magli">
+
                     <div class="contacts">
-                        <p><strong>E-mail:</strong> alessio.carrozzo2@unibo.it</p>
-                        <p><strong>Unibo webpage:</strong> <a href="https://www.unibo.it/sitoweb/alessio.carrozzo2">https://www.unibo.it/sitoweb/alessio.carrozzo2</a></p>
+
+                        <p>
+                            <strong>E-mail:</strong>
+                            <a href="mailto:alessio.carrozzo2@unibo.it">
+                                alessio.carrozzo2@unibo.it
+                            </a>
+                        </p>
+
+                        <p>
+                            <strong>Unibo webpage:</strong>
+                            <a href="https://www.unibo.it/sitoweb/alessio.carrozzo2"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                University of Bologna profile
+                            </a>
+                        </p>
+
                     </div>
+
                 </div>
-               <main>
-    <p>Hi there! I am an applied researcher currently working as a research fellow at the <strong>University of Turin</strong>, and was previously a postdoctoral researcher at <strong>Sapienza University of Rome</strong> (2023-24) and <strong>University of Pisa</strong> (2024-25).</p>
-    <ul class="square-bullets">
-        <li>My current areas of interest are: Political Economy, Crime Economics and Health Economics. During my MSc, I have also worked on environmental economics and behavioural epidemiology. </li>
-        <li>Employing game-theoretic and microeconometric methods, I am currently studing: (i) the interplay between mafia-related <b>violence</b> and <b>state response</b> to crime; (ii) the mafia-politics <b>collusion</b> through <b>vote-buying</b>; (iii) the effect of peacetime <b>military conscription</b> on <b>mental health</b>.</li>
-        <li>During my PhD at University of Bologna (2019–2024), I was also a visiting student at the Ecole Normale Supérieure de Lyon (ENS), hosted by Mathieu Couttenier (Nov–Dec 2022 and Apr–May 2023).</li>
-        
-    </ul>
-</main>
+
+                <main>
+
+                    <p>
+                        Hi there! I am an economist working on
+                        political economy, crime economics, and
+                        applied microeconometrics.
+                        I was previously a postdoctoral researcher
+                        at <strong>the University of Turin</strong>
+                        (2025–2026),
+                        <strong>the University of Pisa</strong>
+                        (2024–2025), and
+                        <strong>Sapienza University of Rome</strong>
+                        (2023–2024).
+                    </p>
+
+                    <ul class="square-bullets">
+
+                        <li>
+                            My main research interests are
+                            <strong>Political Economy</strong>,
+                            <strong>Crime Economics</strong>, and
+                            <strong>Health Economics</strong>.
+                            I have also worked on environmental
+                            economics and behavioural epidemiology.
+                        </li>
+
+                        <li>
+                            Combining game-theoretic models and
+                            microeconometric methods, I am currently
+                            studying:
+                            (i) the interplay between mafia-related
+                            <strong>violence</strong> and
+                            <strong>state responses</strong> to crime;
+                            (ii) mafia-politics
+                            <strong>collusion</strong> through
+                            <strong>vote-buying</strong>;
+                            and (iii) the effects of peacetime
+                            <strong>military conscription</strong>
+                            on <strong>mental health</strong>.
+                        </li>
+
+                        <li>
+                            I obtained my PhD in Economics from the
+                            <strong>University of Bologna</strong>
+                            (2019–2024).
+                            During my PhD, I was also a visiting
+                            researcher at the
+                            <strong>École Normale Supérieure de Lyon
+                            (ENS)</strong>,
+                            hosted by Mathieu Couttenier
+                            (Nov–Dec 2022 and Apr–May 2023).
+                        </li>
+
+                    </ul>
+
+                </main>
 
             </div>
+
         </section>
+
     </div>
+
     <footer>
-        <p>&copy; 2024 Alessio Carrozzo Magli</p>
+        <p>&copy; 2026 Alessio Carrozzo Magli</p>
     </footer>
+
 </body>
 </html>
