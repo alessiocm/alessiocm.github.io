@@ -1,89 +1,105 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
+
+    <title>Curriculum Vitae | Alessio Carrozzo Magli</title>
+
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             background-color: #ffffff;
             color: #000000;
             margin: 0;
             padding: 0;
             line-height: 1.6;
         }
+
         h1, h2, h3 {
             font-weight: normal;
         }
+
         h1 {
             text-align: center;
             font-size: 2.5em;
             margin-top: 40px;
         }
+
         h2 {
             text-align: center;
             font-size: 1.8em;
             margin-top: 20px;
             margin-bottom: 5px;
         }
-         h3 {
+
+        h3 {
             font-size: 1.5em;
-            margin-top: 20px;
-            margin-bottom: 5px;
+            margin-top: 25px;
+            margin-bottom: 10px;
         }
+
         .content {
             margin: 0 auto;
             max-width: 900px;
             padding: 20px;
         }
+
         .content p {
             text-align: center;
             margin: 20px 0;
         }
+
         .square-bullets {
             list-style-type: square;
             margin-left: 20px;
             padding-left: 0;
         }
+
         .square-bullets li {
             margin-bottom: 10px;
         }
-        .square-bullets h2 {
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-        .square-bullets a {
-            color: #007BFF; /* Colore blu per i link */
+
+        .content a {
+            color: #007BFF;
             text-decoration: none;
         }
-        .square-bullets a:hover {
+
+        .content a:hover {
             text-decoration: underline;
         }
+
         nav {
             text-align: center;
             padding: 20px 0;
             background-color: #ffffff;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
         }
+
         nav ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
         }
+
         nav ul li {
-            display: inline;
-            margin: 0 15px;
+            display: inline-block;
+            margin: 5px 15px;
         }
+
         nav ul li a {
             text-decoration: none;
             color: #000000;
             font-weight: bold;
             font-size: 1.1em;
         }
+
         nav ul li a:hover {
             color: #007BFF;
         }
+
         footer {
             text-align: center;
             padding: 10px 0;
@@ -91,11 +107,29 @@
             margin-top: 20px;
             font-size: 0.9em;
         }
+
+        @media (max-width: 650px) {
+            h1 {
+                font-size: 2em;
+                padding: 0 10px;
+            }
+
+            nav ul li {
+                margin: 5px 8px;
+            }
+
+            nav ul li a {
+                font-size: 0.95em;
+            }
+        }
     </style>
 </head>
+
 <body>
+
     <header>
         <h1>Alessio Carrozzo Magli</h1>
+
         <nav>
             <ul>
                 <li><a href="index.html">Home Page</a></li>
@@ -106,22 +140,62 @@
             </ul>
         </nav>
     </header>
+
     <div class="content">
+
         <h2>CURRICULUM VITAE</h2>
-        <p>You can download my CV <a href="https://drive.google.com/file/d/1XdgLCk4oKgEvyNbko-K7Lp0fxqX8wglp/view?usp=sharing"_blank">here</a></p>
+
+        <p>
+            You can download my CV
+            <a href="https://drive.google.com/file/d/1XdgLCk4oKgEvyNbko-K7Lp0fxqX8wglp/view?usp=sharing"
+               target="_blank"
+               rel="noopener noreferrer">here</a>.
+        </p>
+
+        <h3><b>Postdoctoral Positions</b></h3>
+
         <ul class="square-bullets">
-            <h3><b>Postdoctoral Positions</b></h3>
-            <li>Oct 2025-Oct 2026: Research Fellow [University of Turin]</li>
-         <li>Dec 2024-Oct 2025: Research Fellow [University of Pisa]</li>
-            <li>Dec 2023-Nov 2024: Research Fellow [Sapienza University of Roma]</li>
-            <h3><b>Education</b></h3>
-            <li>2019-2024: PhD in Economics [University of Bologna]</li>
-            <li>2019: MSc in Economics [Sant'Anna School of Advanced Studies and University of Pisa]</li>
-            <li>2018: BSc in Economics and Trade [University of Pisa]</li>
+            <li>
+                Oct 2025–Oct 2026:
+                Research Fellow [University of Turin]
+            </li>
+
+            <li>
+                Dec 2024–Oct 2025:
+                Research Fellow [University of Pisa]
+            </li>
+
+            <li>
+                Dec 2023–Nov 2024:
+                Research Fellow [Sapienza University of Rome]
+            </li>
         </ul>
+
+        <h3><b>Education</b></h3>
+
+        <ul class="square-bullets">
+            <li>
+                2019–2024:
+                PhD in Economics [University of Bologna]
+            </li>
+
+            <li>
+                2019:
+                MSc in Economics [Sant'Anna School of Advanced Studies
+                and University of Pisa]
+            </li>
+
+            <li>
+                2018:
+                BSc in Economics and Trade [University of Pisa]
+            </li>
+        </ul>
+
     </div>
+
     <footer>
-        <p>&copy; 2024 Alessio Carrozzo Magli</p>
+        <p>&copy; 2026 Alessio Carrozzo Magli</p>
     </footer>
+
 </body>
 </html>
